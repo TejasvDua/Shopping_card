@@ -1,0 +1,97 @@
+body{
+    background-color:hsl(30, 38%, 92%);
+    
+}
+
+/* div {
+    
+
+  } */
+
+.card_container{
+  position: absolute;
+  
+  width: 500px;
+  height: 400px;
+  right: .0;
+  left: 0px;
+  top: 0px;
+
+}
+.card_data{
+  position: absolute;
+  padding-top: 200px;
+  padding-left: 700px;
+}
+.card_title{
+padding-top: 250px;
+padding-left: 700px;
+width: 200px;
+font-family: 'Fraunces', serif;
+font-weight: 700;
+
+}
+.card_description
+{
+  padding-left: 700px;
+  height: 10px;
+  width: 300px;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+
+}
+.card_price_container{
+  padding-left: 700px;
+  padding-top: 30px;
+  
+
+}
+.card_price{
+
+  padding-top: 20px;
+
+}
+.card_price_old{
+  margin: 0;
+  text-decoration: line-through;
+
+}
+.card_title:hover {
+  cursor: pointer;
+  color: green;
+}
+.img1{
+  position: relative;
+  
+  height: 500px;
+  width: 400px;
+  padding-top: 175px;
+  padding-left: 250px;
+  border-radius: 30px;
+  
+
+}
+.btn {
+  -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #00ab11;
+  padding: 13px 37px 13px 30px;
+  text-decoration: none;
+  right: 690px;
+  
+}
+
+.btn:hover {
+  background: #000000;
+  background-image: -webkit-linear-gradient(top, #000000, #000000);
+  background-image: -moz-linear-gradient(top, #000000, #000000);
+  background-image: -ms-linear-gradient(top, #000000, #000000);
+  background-image: -o-linear-gradient(top, #000000, #000000);
+  background-image: linear-gradient(to bottom, #000000, #000000);
+  text-decoration: none;
+}
